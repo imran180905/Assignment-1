@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans';
+    /* font-style: normal; */
+
 }
 
 /* header-section */
@@ -63,7 +65,6 @@
 .main {
     max-width: 1070px;
     margin: 0px auto;
-    border: 2px solid blue;
 }
 
 /* section 1 */
@@ -179,7 +180,7 @@ ul li::marker {
 .section-4-img {
     width: 100%;
     height: 250px;
-    
+
 
 
 }
@@ -210,6 +211,138 @@ ul li::marker {
 
 }
 
-.section-4-description{
+.section-4-description {
     margin-top: -200px;
+}
+
+/* footer */
+.footer {
+    margin-top: 130px;
+    
+
+    height: 570px;
+}
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    min-height: 100vh;
+
+}
+
+.footer {
+    background: #000000e8;
+    width: 1600px;
+    height: 577px;
+    color: white;
+
+
+}
+
+/* footer-left */
+
+.footer-left {
+    align-items: center;
+    height: 85%;
+    width: 30%;
+
+
+}
+
+.footer-logo {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 300px;
+
+    /* margin-top: 22px; */
+
+
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 40px;
+    margin-top: 150px;
+    text-align: left;
+
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+
+
+.phone {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-email {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+/* footer-right part */
+
+.footer-right {
+    width: 30%;
+}
+
+.subscriber-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 150px;
+    margin-bottom: 25px;
+
+}
+
+input {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 300px;
+    height: 54px;
+    color: #f38f8f;
+    border: 2px solid #FFFFFF;
+    border-radius: 7px;
+    background-color: rgb(26, 24, 24);
+
+
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 21px 150px 21px 21px;
+    color: #F3F3F3;
+
+}
+
+.subscribe-button {
+    background-color: rgb(52, 52, 221);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #eef2f5dc;
+
+    width: 160px;
+    height: 54px;
+    /* padding: 20px 6px 20px 36px; */
+    padding: 0px auto;
+    margin-top: 15px;
+
+    border: 2px antiquewhite;
+    border-radius: 5px;
+
 }
