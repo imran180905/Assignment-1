@@ -94,30 +94,66 @@
 }
 
 ul li {
-    
+
     font-weight: 400;
     font-size: 16px;
     color: #444343;
 }
+
 ul li::marker {
     content: '✓';
     color: green;
-    
-  }
-  .section-1{
+
+}
+
+.section-1 {
     margin-bottom: 130px;
-  }
-  /* section 2 */
-  /* motivation section */
-.text{
+}
+
+/* section 2 */
+/* motivation section */
+.text {
     color: brown;
-    font-weight:400;
+    font-weight: 400;
     font-size: 46px;
 
 }
-.text-1{
+
+.text-1 {
     color: rgb(48, 6, 102);
-    font-weight:400;
+    font-weight: 400;
     font-size: 26px;
 
+}
+
+/* section-3 */
+
+.section-3-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+
+    color: #151414;
+
+}
+
+.skill {
+    display: flex;
+    gap: 150px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 26px;
+    /* text-align: center; */
+    color: #151414;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
 }
