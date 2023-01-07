@@ -13,10 +13,12 @@
     /* place-content: center center; */
     /* text-align: center;  */
     background-repeat: no-repeat;
-    
-    
+    margin-bottom: 130px;
+
+
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: column;
     place-content: end end;
@@ -40,7 +42,7 @@
     color: white;
     margin-bottom: 32px;
     /* margin: 460px 230px 260px 870px; */
-    
+
 }
 
 .header-button {
@@ -48,7 +50,7 @@
     font-size: 20px;
     text-align: center;
     color: #005FAC;
-    
+
     width: 160px;
     height: 54px;
     padding: 18px 24px;
@@ -56,3 +58,49 @@
     border: 2px solid blue;
     border-radius: 5px;
 }
+
+/* Main section */
+.main {
+    max-width: 1070px;
+    margin: 0px auto;
+    border: 2px solid blue;
+}
+
+/* section 1 */
+.failure-section {
+    display: flex;
+
+}
+
+.failure {
+    align-content: center;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+    margin-top: ;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+ul li {
+    
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+ul li::marker {
+    content: '✓';
+    color: green;
+    
+  }
